@@ -1,0 +1,63 @@
+{
+  "global": {
+    "email_campaigns": {
+      "open_rate": { "median": 21.5, "top_10": 38.2 },
+      "click_rate": { "median": 2.8, "top_10": 5.4 },
+      "unsubscribe_rate": { "median": 0.15, "top_10": 0.08 }
+    },
+    "sms": {
+      "delivery_rate": { "median": 97.2, "top_10": 99.1 },
+      "click_rate": { "median": 8.1, "top_10": 15.3 },
+      "opt_out_rate": { "median": 0.9, "top_10": 0.3 }
+    },
+    "push": {
+      "delivery_rate": { "median": 85.4, "top_10": 94.2 },
+      "open_rate": { "median": 4.2, "top_10": 8.7 },
+      "click_rate": { "median": 1.8, "top_10": 3.9 }
+    }
+  },
+  "channel_mix": {
+    "retail": {
+      "all_regions": {
+        "labels": ["Email", "SMS", "Push", "WhatsApp", "Wallet"],
+        "values": [45, 25, 15, 10, 5]
+      },
+      "europe": {
+        "labels": ["Email", "SMS", "Push", "WhatsApp", "Wallet"],
+        "values": [42, 20, 18, 12, 8]
+      },
+      "north_america": {
+        "labels": ["Email", "SMS", "Push", "WhatsApp", "Wallet"],
+        "values": [50, 28, 12, 7, 3]
+      }
+    },
+    "ecommerce": {
+      "all_regions": {
+        "labels": ["Email", "SMS", "Push", "WhatsApp", "Wallet"],
+        "values": [40, 30, 12, 13, 5]
+      },
+      "europe": {
+        "labels": ["Email", "SMS", "Push", "WhatsApp", "Wallet"],
+        "values": [38, 25, 15, 15, 7]
+      },
+      "north_america": {
+        "labels": ["Email", "SMS", "Push", "WhatsApp", "Wallet"],
+        "values": [44, 32, 10, 10, 4]
+      }
+    },
+    "travel": {
+      "all_regions": {
+        "labels": ["Email", "SMS", "Push", "WhatsApp", "Wallet"],
+        "values": [35, 20, 25, 15, 5]
+      },
+      "europe": {
+        "labels": ["Email", "SMS", "Push", "WhatsApp", "Wallet"],
+        "values": [32, 18, 28, 17, 5]
+      },
+      "north_america": {
+        "labels": ["Email", "SMS", "Push", "WhatsApp", "Wallet"],
+        "values": [38, 22, 22, 13, 5]
+      }
+    }
+  }
+}
